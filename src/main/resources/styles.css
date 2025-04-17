@@ -1,0 +1,160 @@
+/* Global Theme */
+.custom-anchor {
+    -fx-background-color: #121212;
+    -fx-padding: 10;
+}
+
+.custom-header {
+    -fx-background-color: #1e1e1e;
+    -fx-border-color: #3a3a3a;
+    -fx-border-width: 1;
+    -fx-border-radius: 5;
+    -fx-padding: 5;
+}
+
+.header-label {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff;
+    -fx-effect: dropshadow(gaussian, rgba(255, 255, 255, 0.7), 5, 0, 0, 0);
+    -fx-transition: all 0.3s ease;
+}
+
+.header-label:hover {
+    -fx-text-fill: #ffcc00;
+    -fx-effect: dropshadow(gaussian, rgba(255, 255, 102, 0.8), 10, 0.5, 0, 0);
+    -fx-font-size: 18px;
+}
+
+/* Radio Buttons */
+.custom-radio {
+    -fx-text-fill: #dcdcdc;
+    -fx-font-size: 14px;
+    -fx-background-radius: 3;
+}
+
+.custom-radio:hover {
+    -fx-background-color: linear-gradient(to right, #ff7eb3, #ff758c, #ff6b5c);
+    -fx-text-fill: #ffffff;
+    -fx-background-radius: 10;
+}
+
+/* Checkboxes */
+.custom-checkbox {
+    -fx-text-fill: #dcdcdc;
+    -fx-font-size: 14px;
+    -fx-background-radius: 3;
+}
+
+.custom-checkbox:hover {
+    -fx-background-color: linear-gradient(to right, #6a85b6, #bac8e0, #7fb3d5);
+    -fx-text-fill: #ffffff;
+    -fx-background-radius: 10;
+}
+
+/* Labels */
+.field-label {
+    -fx-text-fill: #bbbbbb;
+    -fx-font-size: 13px;
+    -fx-transition: all 0.3s ease;
+}
+
+/* Cool Hover Effects for Labels */
+.field-label:hover {
+    -fx-text-fill: #ff7eb3;
+    -fx-transform: scale(1.1);
+    -fx-effect: dropshadow(gaussian, rgba(255, 127, 179, 0.8), 8, 0.5, 0, 0);
+}
+
+/* Stats Label Hover Effects */
+.stats-label {
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 13px;
+    -fx-transition: all 0.3s ease;
+}
+
+/* Creative Hover Effect */
+.stats-label:hover {
+    -fx-text-fill: #ff7eb3;
+    -fx-font-size: 15px; /* Slightly increase the font size */
+    -fx-transform: rotate(10deg) scale(1.1); /* Rotate and scale up for dynamic effect */
+    -fx-effect: dropshadow(gaussian, rgba(255, 127, 179, 0.9), 8, 0.5, 0, 0); /* Glowing shadow effect */
+    -fx-background-color: rgba(0, 0, 0, 0.1); /* Subtle background highlight */
+    -fx-padding: 2 10 2 10; /* Add padding to create a cool floating effect */
+}
+
+
+/* Stats Box */
+.stats-box {
+    -fx-background-color: #1e1e1e;
+    -fx-border-color: #3a3a3a;
+    -fx-border-width: 1;
+    -fx-border-radius: 5;
+    -fx-padding: 10;
+    -fx-alignment: center;
+    -fx-margin: 10;
+}
+
+/* TextField Styles */
+.text-field {
+    -fx-background-color: #1e1e1e;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 13px;
+    -fx-padding: 5;
+    -fx-border-color: #3a3a3a;
+    -fx-border-width: 1;
+    -fx-border-radius: 3;
+    -fx-background-radius: 3;
+}
+
+.text-field:hover {
+    -fx-border-color: linear-gradient(to right, #6a85b6, #bac8e0, #7fb3d5);
+    -fx-effect: dropshadow(gaussian, rgba(127, 179, 213, 0.8), 10, 0.5, 0, 0);
+    -fx-background-color: #2a2a2a;
+}
+
+/* Transformed Hover Effect for TextField */
+.text-field:hover {
+    -fx-transform: scale(1.05);
+}
+
+.text-field:focused {
+    -fx-border-color: #ffcc00;
+    -fx-background-color: #2a2a2a;
+    -fx-effect: dropshadow(gaussian, rgba(255, 204, 0, 0.8), 12, 0.5, 0, 0);
+}
+/* Checkboxes */
+.custom-checkbox {
+    -fx-text-fill: #dcdcdc;
+    -fx-font-size: 14px;
+    -fx-background-radius: 3;
+}
+
+.custom-checkbox .box {
+    -fx-background-color: transparent;
+    -fx-border-color: #3a3a3a;
+    -fx-border-width: 2;
+    -fx-border-radius: 3;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 5, 0, 0, 0); /* Subtle shadow */
+    -fx-transition: all 0.3s ease;
+}
+
+/* Cool Hover Effect for Checkboxes */
+.custom-checkbox:hover .box {
+    -fx-background-color: linear-gradient(to right, #6a85b6, #bac8e0, #7fb3d5); /* Cool gradient */
+    -fx-border-color: linear-gradient(to right, #6a85b6, #bac8e0, #7fb3d5);
+    -fx-effect: dropshadow(gaussian, rgba(127, 179, 213, 0.8), 10, 0.5, 0, 0); /* Glowing shadow */
+    -fx-transform: scale(1.1) rotate(5deg); /* Slightly rotate and scale up */
+}
+
+/* For the checkbox label hover effect */
+.custom-checkbox:hover {
+    -fx-text-fill: #ffffff; /* Keep the text hover color */
+}
+
+/* Checkbox when selected */
+.custom-checkbox .box:selected {
+    -fx-background-color: linear-gradient(to right, #ff7eb3, #ff758c, #ff6b5c);
+    -fx-border-color: linear-gradient(to right, #ff7eb3, #ff758c, #ff6b5c);
+    -fx-effect: dropshadow(gaussian, rgba(255, 127, 179, 0.8), 10, 0.5, 0, 0); /* Glowing shadow */
+}
